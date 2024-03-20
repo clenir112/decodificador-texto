@@ -1,0 +1,118 @@
+:root{
+    --corprincipal:#ffc7f9;
+    --corsecundaria:#8dc3ca;
+    --cortitulo:#5d28d8;
+}
+
+body{
+
+    background:var(--corsecundaria);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.cabecalho img{
+    max-width: 70px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+}
+
+.container-input{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container-input.input{
+    width: 400px;
+    height: 330px;
+}
+
+#input-texto{
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color:var(--cortitulo) ;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+
+ #input{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid  var(--cortitulo);
+    border-radius: 20px;
+    width: 300px;
+    height:400px;
+    margin-right: 1%;
+ 
+ }
+
+ #output h2{
+    text-align: center;
+    font-size: 25px;
+    color: var(--cortitulo);
+ 
+}
+
+#output span{
+    font-size: 16px;
+    text-align: center;
+
+}
+
+#output img{
+    max-width: 600px;
+    max-height: 800px;
+    width: auto;
+    margin-top: 1%;
+
+}
+
+.container-btn button{
+    border: 2px solid var(--cortitulo);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #5d28d8;
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+
+}
+
+.btn-copiar{
+    border: 2px solid var(--cortitulo);
+    border-radius: 10px ;
+    text-decoration: none;
+    color: #5d28d8;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+
+}   
+
+.container-btn button:hover{
+    border: 2px solid var(--corsecundaria);
+    transition: 0.5s all;
+
+} 
+
